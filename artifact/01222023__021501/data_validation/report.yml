@@ -1,0 +1,47 @@
+Missing_values_within__dataset: []
+Missing_values_within_base_dataset: []
+Missing_values_within_train_dataset: []
+data_drift_within_test_dataset:
+  age:
+    pvalues: 0.901728916713123
+    same_distribution: true
+  bmi:
+    pvalues: 0.34318751311196066
+    same_distribution: true
+  children:
+    pvalues: 0.8299326761324909
+    same_distribution: true
+  expenses:
+    pvalues: 0.8700711352692806
+    same_distribution: true
+  region:
+    pvalues: 0.9541719080516647
+    same_distribution: true
+  sex:
+    pvalues: 0.9992028245197027
+    same_distribution: true
+  smoker:
+    pvalues: 0.9996371866287264
+    same_distribution: true
+data_drift_within_train_dataset:
+  age:
+    pvalues: 0.9999999973606135
+    same_distribution: true
+  bmi:
+    pvalues: 0.9983155562140827
+    same_distribution: true
+  children:
+    pvalues: 0.99999990483098
+    same_distribution: true
+  expenses:
+    pvalues: 0.9999999831416432
+    same_distribution: true
+  region:
+    pvalues: 0.9999999999791673
+    same_distribution: true
+  sex:
+    pvalues: 1.0
+    same_distribution: true
+  smoker:
+    pvalues: 1.0
+    same_distribution: true
