@@ -51,7 +51,7 @@ class DataIngestion: # Data is dividev into train, test and validation
             data_ingestion_artifact = artifact_entity.DataIngestionArtifact(
                 feature_store_file_path = self.data_ingestion_config.feature_store_file_path,
                 train_file_path = self.data_ingestion_config.train_file_path,
-                test_file_path = self.data_ingestion_config.test_file_path
-            )
+                test_file_path = self.data_ingestion_config.test_file_path)
         except Exception as e:
             raise InsuranceException(error_message=e, error_detail= sys)
+

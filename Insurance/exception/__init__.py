@@ -21,4 +21,14 @@ class InsuranceException(Exception):
         return error_message
 
     def __str__(self):
+        """
+        Formating how a object should be visible if used in print statement.
+        """
+        return self.error_message
+
+    def __repr__(self):
+        """
+        Formating object of AppException
+        """
+
         return InsuranceException.__name__.__str__()
